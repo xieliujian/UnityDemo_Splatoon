@@ -1,0 +1,490 @@
+fileFormatVersion: 2
+guid: 5f02e1dbb9d512a42b39d8c67bf31140
+timeCreated: 1447332412
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: qiang1:polySurface15
+    100004: st:Ch01
+    100006: st:Ch01_Head
+    100008: st:Ch01_kua
+    100010: st:Ch01_L_Calf
+    100012: st:Ch01_L_Clavicle
+    100014: st:Ch01_L_Finger0
+    100016: st:Ch01_L_Finger1
+    100018: st:Ch01_L_Finger2
+    100020: st:Ch01_L_Finger3
+    100022: st:Ch01_L_Finger4
+    100024: st:Ch01_L_Foot
+    100026: st:Ch01_L_Forearm
+    100028: st:Ch01_L_Hand
+    100030: st:Ch01_L_Thigh
+    100032: st:Ch01_L_Toe0
+    100034: st:Ch01_L_UpperArm
+    100036: st:Ch01_Neck
+    100038: st:Ch01_Pelvis
+    100040: st:Ch01_R_Calf
+    100042: st:Ch01_R_Clavicle
+    100044: st:Ch01_R_Finger0
+    100046: st:Ch01_R_Finger1
+    100048: st:Ch01_R_Finger2
+    100050: st:Ch01_R_Finger3
+    100052: st:Ch01_R_Finger4
+    100054: st:Ch01_R_Foot
+    100056: st:Ch01_R_Forearm
+    100058: st:Ch01_R_Hand
+    100060: st:Ch01_R_Thigh
+    100062: st:Ch01_R_Toe0
+    100064: st:Ch01_R_UpperArm
+    100066: st:Ch01_spine
+    100068: st:Ch01_Spine1
+    100070: st:Ch01_Spine2
+    100072: st:group77
+    100074: st:joint12
+    100076: st:joint18
+    100078: st:joint19
+    100080: st:joint20
+    100082: st:joint22
+    100084: st:joint23
+    100086: st:joint24
+    100088: st:joint26
+    100090: st:joint27
+    100092: st:joint28
+    100094: st:joint30
+    100096: st:joint31
+    100098: st:joint32
+    100100: st:joint36
+    100102: st:joint37
+    100104: st:joint38
+    100106: st:joint39
+    100108: st:joint40
+    100110: st:joint42
+    100112: st:joint43
+    100114: st:joint44
+    100116: st:joint50
+    100118: st:joint51
+    100120: st:joint52
+    100122: st:joint54
+    100124: st:joint55
+    100126: st:joint56
+    100128: st:joint58
+    100130: st:joint59
+    100132: st:joint60
+    100134: st:joint62
+    100136: st:joint63
+    100138: st:joint64
+    100140: st:joint66
+    100142: st:joint67
+    100144: st:joint68
+    100146: st:joint7
+    100148: st:joint74
+    100150: st:joint75
+    100152: st:joint76
+    100154: st:joint77
+    100156: st:joint80
+    100158: st:joint85
+    100160: st:joint86
+    100162: st:joint87
+    100164: st:joint91
+    100166: st:joint92
+    100168: st:joint93
+    100170: st:maozi
+    100172: st:moxing
+    100174: st:pCylinder2
+    100176: st:pCylinder3
+    100178: st:polySurface34
+    100180: st:shengti
+    100182: st:tou
+    100184: st:Weapon_L
+    100186: st:Weapon_R
+    100188: st:xiezi
+    400000: //RootNode
+    400002: qiang1:polySurface15
+    400004: st:Ch01
+    400006: st:Ch01_Head
+    400008: st:Ch01_kua
+    400010: st:Ch01_L_Calf
+    400012: st:Ch01_L_Clavicle
+    400014: st:Ch01_L_Finger0
+    400016: st:Ch01_L_Finger1
+    400018: st:Ch01_L_Finger2
+    400020: st:Ch01_L_Finger3
+    400022: st:Ch01_L_Finger4
+    400024: st:Ch01_L_Foot
+    400026: st:Ch01_L_Forearm
+    400028: st:Ch01_L_Hand
+    400030: st:Ch01_L_Thigh
+    400032: st:Ch01_L_Toe0
+    400034: st:Ch01_L_UpperArm
+    400036: st:Ch01_Neck
+    400038: st:Ch01_Pelvis
+    400040: st:Ch01_R_Calf
+    400042: st:Ch01_R_Clavicle
+    400044: st:Ch01_R_Finger0
+    400046: st:Ch01_R_Finger1
+    400048: st:Ch01_R_Finger2
+    400050: st:Ch01_R_Finger3
+    400052: st:Ch01_R_Finger4
+    400054: st:Ch01_R_Foot
+    400056: st:Ch01_R_Forearm
+    400058: st:Ch01_R_Hand
+    400060: st:Ch01_R_Thigh
+    400062: st:Ch01_R_Toe0
+    400064: st:Ch01_R_UpperArm
+    400066: st:Ch01_spine
+    400068: st:Ch01_Spine1
+    400070: st:Ch01_Spine2
+    400072: st:group77
+    400074: st:joint12
+    400076: st:joint18
+    400078: st:joint19
+    400080: st:joint20
+    400082: st:joint22
+    400084: st:joint23
+    400086: st:joint24
+    400088: st:joint26
+    400090: st:joint27
+    400092: st:joint28
+    400094: st:joint30
+    400096: st:joint31
+    400098: st:joint32
+    400100: st:joint36
+    400102: st:joint37
+    400104: st:joint38
+    400106: st:joint39
+    400108: st:joint40
+    400110: st:joint42
+    400112: st:joint43
+    400114: st:joint44
+    400116: st:joint50
+    400118: st:joint51
+    400120: st:joint52
+    400122: st:joint54
+    400124: st:joint55
+    400126: st:joint56
+    400128: st:joint58
+    400130: st:joint59
+    400132: st:joint60
+    400134: st:joint62
+    400136: st:joint63
+    400138: st:joint64
+    400140: st:joint66
+    400142: st:joint67
+    400144: st:joint68
+    400146: st:joint7
+    400148: st:joint74
+    400150: st:joint75
+    400152: st:joint76
+    400154: st:joint77
+    400156: st:joint80
+    400158: st:joint85
+    400160: st:joint86
+    400162: st:joint87
+    400164: st:joint91
+    400166: st:joint92
+    400168: st:joint93
+    400170: st:maozi
+    400172: st:moxing
+    400174: st:pCylinder2
+    400176: st:pCylinder3
+    400178: st:polySurface34
+    400180: st:shengti
+    400182: st:tou
+    400184: st:Weapon_L
+    400186: st:Weapon_R
+    400188: st:xiezi
+    2300000: qiang1:polySurface15
+    3300000: qiang1:polySurface15
+    4300000: qiang1:polySurface15
+    4300002: st:maozi
+    4300004: st:tou
+    4300006: st:shengti
+    4300008: st:xiezi
+    4300010: st:pCylinder2
+    4300012: st:pCylinder3
+    4300014: st:polySurface34
+    7400000: Girl2@ShootJ
+    9500000: //RootNode
+    13700000: st:maozi
+    13700002: st:pCylinder2
+    13700004: st:pCylinder3
+    13700006: st:polySurface34
+    13700008: st:shengti
+    13700010: st:tou
+    13700012: st:xiezi
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Girl2@ShootJ
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: st:Ch01
+        weight: 1
+      - path: st:Ch01/st:Ch01_Pelvis
+        weight: 1
+      - path: st:Ch01/st:Ch01_Pelvis/st:Ch01_kua
+        weight: 1
+      - path: st:Ch01/st:Ch01_Pelvis/st:Ch01_kua/st:joint80
+        weight: 1
+      - path: st:Ch01/st:Ch01_Pelvis/st:Ch01_L_Thigh
+        weight: 1
+      - path: st:Ch01/st:Ch01_Pelvis/st:Ch01_L_Thigh/st:Ch01_L_Calf
+        weight: 1
+      - path: st:Ch01/st:Ch01_Pelvis/st:Ch01_L_Thigh/st:Ch01_L_Calf/st:Ch01_L_Foot
+        weight: 1
+      - path: st:Ch01/st:Ch01_Pelvis/st:Ch01_L_Thigh/st:Ch01_L_Calf/st:Ch01_L_Foot/st:Ch01_L_Toe0
+        weight: 1
+      - path: st:Ch01/st:Ch01_Pelvis/st:Ch01_L_Thigh/st:Ch01_L_Calf/st:Ch01_L_Foot/st:Ch01_L_Toe0/st:joint12
+        weight: 1
+      - path: st:Ch01/st:Ch01_Pelvis/st:Ch01_R_Thigh
+        weight: 1
+      - path: st:Ch01/st:Ch01_Pelvis/st:Ch01_R_Thigh/st:Ch01_R_Calf
+        weight: 1
+      - path: st:Ch01/st:Ch01_Pelvis/st:Ch01_R_Thigh/st:Ch01_R_Calf/st:Ch01_R_Foot
+        weight: 1
+      - path: st:Ch01/st:Ch01_Pelvis/st:Ch01_R_Thigh/st:Ch01_R_Calf/st:Ch01_R_Foot/st:Ch01_R_Toe0
+        weight: 1
+      - path: st:Ch01/st:Ch01_Pelvis/st:Ch01_R_Thigh/st:Ch01_R_Calf/st:Ch01_R_Foot/st:Ch01_R_Toe0/st:joint85
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger0
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger0/st:joint42
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger0/st:joint42/st:joint43
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger0/st:joint42/st:joint43/st:joint44
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger1
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger1/st:joint26
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger1/st:joint26/st:joint27
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger1/st:joint26/st:joint27/st:joint28
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger2
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger2/st:joint22
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger2/st:joint22/st:joint23
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger2/st:joint22/st:joint23/st:joint24
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger3
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger3/st:joint18
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger3/st:joint18/st:joint19
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger3/st:joint18/st:joint19/st:joint20
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger4
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger4/st:joint30
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger4/st:joint30/st:joint31
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Ch01_L_Finger4/st:joint30/st:joint31/st:joint32
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_L_Clavicle/st:Ch01_L_UpperArm/st:Ch01_L_Forearm/st:Ch01_L_Hand/st:Weapon_L
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_Neck
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_Neck/st:Ch01_Head
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_Neck/st:Ch01_Head/st:joint7
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_Neck/st:Ch01_Head/st:joint36
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_Neck/st:Ch01_Head/st:joint36/st:joint37
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_Neck/st:Ch01_Head/st:joint36/st:joint37/st:joint38
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_Neck/st:Ch01_Head/st:joint36/st:joint37/st:joint38/st:joint39
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_Neck/st:Ch01_Head/st:joint36/st:joint37/st:joint38/st:joint39/st:joint40
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_Neck/st:Ch01_Head/st:joint36/st:joint37/st:joint38/st:joint39/st:joint40/st:joint91
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_Neck/st:Ch01_Head/st:joint74
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_Neck/st:Ch01_Head/st:joint74/st:joint75
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_Neck/st:Ch01_Head/st:joint74/st:joint75/st:joint76
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_Neck/st:Ch01_Head/st:joint74/st:joint75/st:joint76/st:joint77
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_Neck/st:Ch01_Head/st:joint74/st:joint75/st:joint76/st:joint77/st:joint92
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_Neck/st:Ch01_Head/st:joint74/st:joint75/st:joint76/st:joint77/st:joint92/st:joint93
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger0
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger0/st:joint66
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger0/st:joint66/st:joint67
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger0/st:joint66/st:joint67/st:joint68
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger1
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger1/st:joint50
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger1/st:joint50/st:joint51
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger1/st:joint50/st:joint51/st:joint52
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger2
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger2/st:joint54
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger2/st:joint54/st:joint55
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger2/st:joint54/st:joint55/st:joint56
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger3
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger3/st:joint58
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger3/st:joint58/st:joint59
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger3/st:joint58/st:joint59/st:joint60
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger4
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger4/st:joint62
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger4/st:joint62/st:joint63
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Ch01_R_Finger4/st:joint62/st:joint63/st:joint64
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Weapon_R
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:Ch01_R_Clavicle/st:Ch01_R_UpperArm/st:Ch01_R_Forearm/st:Ch01_R_Hand/st:Weapon_R/qiang1:polySurface15
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:joint86
+        weight: 1
+      - path: st:Ch01/st:Ch01_spine/st:Ch01_Spine1/st:Ch01_Spine2/st:joint86/st:joint87
+        weight: 1
+      - path: st:moxing
+        weight: 1
+      - path: st:moxing/st:group77
+        weight: 1
+      - path: st:moxing/st:group77/st:pCylinder2
+        weight: 1
+      - path: st:moxing/st:group77/st:pCylinder3
+        weight: 1
+      - path: st:moxing/st:group77/st:polySurface34
+        weight: 1
+      - path: st:moxing/st:maozi
+        weight: 1
+      - path: st:moxing/st:shengti
+        weight: 1
+      - path: st:moxing/st:tou
+        weight: 1
+      - path: st:moxing/st:xiezi
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

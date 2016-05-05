@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: b24fc3a87e234f64cb1230d383df77d3
+timeCreated: 1456450816
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Ch01
+    100002: Ch01_Head
+    100004: Ch01_kua
+    100006: Ch01_L_Calf
+    100008: Ch01_L_Calf1
+    100010: Ch01_L_Clavicle
+    100012: Ch01_L_Foot
+    100014: Ch01_L_Foot1
+    100016: Ch01_L_Forearm
+    100018: Ch01_L_Hand
+    100020: Ch01_L_Thigh
+    100022: Ch01_L_Thigh1
+    100024: Ch01_L_Toe0
+    100026: Ch01_L_Toe1
+    100028: Ch01_L_UpperArm
+    100030: Ch01_Pelvis
+    100032: Ch01_R_Clavicle
+    100034: Ch01_R_Forearm
+    100036: Ch01_R_Hand
+    100038: Ch01_R_UpperArm
+    100040: Ch01_spine
+    100042: Ch01_Spine1
+    100044: Ch01_Spine2
+    100046: group1
+    100048: joint100
+    100050: joint101
+    100052: joint102
+    100054: joint103
+    100056: joint109
+    100058: joint110
+    100060: joint111
+    100062: joint112
+    100064: joint113
+    100066: joint114
+    100068: joint115
+    100070: joint116
+    100072: joint117
+    100074: joint12
+    100076: joint7
+    100078: joint86
+    100080: joint87
+    100082: joint88
+    100084: joint89
+    100086: joint90
+    100088: joint91
+    100090: joint92
+    100092: joint93
+    100094: joint97
+    100096: joint98
+    100098: joint98 1
+    100100: joint99
+    100102: joint99 1
+    100104: moxing
+    100106: PS_guanzi_01
+    100108: PS_guanzi_02
+    100110: PS_guanzi_03
+    100112: ren
+    100114: //RootNode
+    100116: toufa
+    100118: transform2
+    100120: Weapon_L
+    100122: Weapon_R
+    100124: xizi
+    400000: Ch01
+    400002: Ch01_Head
+    400004: Ch01_kua
+    400006: Ch01_L_Calf
+    400008: Ch01_L_Calf1
+    400010: Ch01_L_Clavicle
+    400012: Ch01_L_Foot
+    400014: Ch01_L_Foot1
+    400016: Ch01_L_Forearm
+    400018: Ch01_L_Hand
+    400020: Ch01_L_Thigh
+    400022: Ch01_L_Thigh1
+    400024: Ch01_L_Toe0
+    400026: Ch01_L_Toe1
+    400028: Ch01_L_UpperArm
+    400030: Ch01_Pelvis
+    400032: Ch01_R_Clavicle
+    400034: Ch01_R_Forearm
+    400036: Ch01_R_Hand
+    400038: Ch01_R_UpperArm
+    400040: Ch01_spine
+    400042: Ch01_Spine1
+    400044: Ch01_Spine2
+    400046: group1
+    400048: joint100
+    400050: joint101
+    400052: joint102
+    400054: joint103
+    400056: joint109
+    400058: joint110
+    400060: joint111
+    400062: joint112
+    400064: joint113
+    400066: joint114
+    400068: joint115
+    400070: joint116
+    400072: joint117
+    400074: joint12
+    400076: joint7
+    400078: joint86
+    400080: joint87
+    400082: joint88
+    400084: joint89
+    400086: joint90
+    400088: joint91
+    400090: joint92
+    400092: joint93
+    400094: joint97
+    400096: joint98
+    400098: joint98 1
+    400100: joint99
+    400102: joint99 1
+    400104: moxing
+    400106: PS_guanzi_01
+    400108: PS_guanzi_02
+    400110: PS_guanzi_03
+    400112: ren
+    400114: //RootNode
+    400116: toufa
+    400118: transform2
+    400120: Weapon_L
+    400122: Weapon_R
+    400124: xizi
+    4300000: toufa
+    4300002: xizi
+    4300004: ren
+    4300006: PS_guanzi_01
+    4300008: PS_guanzi_02
+    4300010: PS_guanzi_03
+    9500000: //RootNode
+    13700000: PS_guanzi_01
+    13700002: PS_guanzi_02
+    13700004: PS_guanzi_03
+    13700006: ren
+    13700008: toufa
+    13700010: xizi
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
