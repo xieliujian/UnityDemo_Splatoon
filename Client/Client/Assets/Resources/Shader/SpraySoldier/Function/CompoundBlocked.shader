@@ -1,4 +1,6 @@
-﻿Shader "SpraySoldier/Function/CompoundBlocked"
+﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+
+Shader "SpraySoldier/Function/CompoundBlocked"
 {
 	Properties
 	{
@@ -46,8 +48,8 @@
 				PSInput o;
 				o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
 
-				float3 worldPos = mul(_Object2World, v.vertex).xyz;
-				float3 worldNormal = mul((float3x3)_Object2World, v.normal);
+				float3 worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
+				float3 worldNormal = mul((float3x3)unity_ObjectToWorld, v.normal);
 				o.normal = worldNormal;
 				o.viewdir = _WorldSpaceCameraPos.xyz - worldPos;
 

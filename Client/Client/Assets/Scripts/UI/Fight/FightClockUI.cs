@@ -15,8 +15,8 @@ public class FightClockUI : MonoBehaviour
     Sprite[] mNumSprList = new Sprite[NumCount];
 
 #if DEBUG
-    int mCurMin = 0;
-    int mCurSec1 = 1;
+    int mCurMin = 3;
+    int mCurSec1 = 0;
 #else
     int mCurMin = 0;
     int mCurSec1 = 1;

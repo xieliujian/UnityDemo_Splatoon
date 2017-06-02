@@ -1,10 +1,13 @@
+// Upgrade NOTE: replaced 'UNITY_PASS_TEXCUBE(unity_SpecCube1)' with 'UNITY_PASS_TEXCUBE_SAMPLER(unity_SpecCube1,unity_SpecCube0)'
+// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+
 
 
 #ifndef __SpraySoldier_h__
 #define __SpraySoldier_h__
 
 #define SS_CALCTANGENTSPACE(i, o) \
-	float3 worldPos = mul(_Object2World, i.vertex).xyz;	\
+	float3 worldPos = mul(unity_ObjectToWorld, i.vertex).xyz;	\
 	float3 worldNormal = UnityObjectToWorldNormal(i.normal); \
 	float3 worldTangent = UnityObjectToWorldDir(i.tangent.xyz);	\
 	float3 worldBinormal = cross(worldNormal, worldTangent) * i.tangent.w;	\
@@ -132,7 +135,7 @@ inline UnityGI SS_UnityGlobalIllumination (UnityGIInput data, half occlusion, ha
 			o_gi.indirect.diffuse = DecodeDirectionalLightmap (bakedColor, bakedDirTex, normalWorld);
 
 			#ifdef SHADOWS_SCREEN
-				o_gi.indirect.diffuse = MixLightmapWithRealtimeAttenuation (o_gi.indirect.diffuse, data.atten, bakedColorTex);
+				//o_gi.indirect.diffuse = MixLightmapWithRealtimeAttenuation (o_gi.indirect.diffuse, data.atten, bakedColorTex);
 			#endif // SHADOWS_SCREEN
 
 		#elif DIRLIGHTMAP_SEPARATE
@@ -193,7 +196,7 @@ inline UnityGI SS_UnityGlobalIllumination (UnityGIInput data, half occlusion, ha
 					half3 worldNormal1 = worldNormal;
 				#endif
 
-				half3 env1 = Unity_GlossyEnvironment (UNITY_PASS_TEXCUBE(unity_SpecCube1), data.probeHDR[1], worldNormal1, 1-oneMinusRoughness);
+				half3 env1 = Unity_GlossyEnvironment (UNITY_PASS_TEXCUBE_SAMPLER(unity_SpecCube1,unity_SpecCube0), data.probeHDR[1], worldNormal1, 1-oneMinusRoughness);
 				o_gi.indirect.specular = lerp(env1, env0, blendLerp);
 			}
 			else
