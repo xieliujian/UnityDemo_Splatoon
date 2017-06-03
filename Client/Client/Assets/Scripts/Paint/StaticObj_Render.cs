@@ -4,16 +4,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 
-public class xEnumDefine//枚举定义类
-{
-    public enum TeamFlag
-    {
-        Invalid = -1,
-        Team_0 = 0,
-        Team_1 = 1,
-    }
-}
-
 public class StaticObj_Render : MonoBehaviour 
 {
     private RenderTexture mDecalTex;

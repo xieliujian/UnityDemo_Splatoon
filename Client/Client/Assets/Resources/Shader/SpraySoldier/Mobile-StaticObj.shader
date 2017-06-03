@@ -211,9 +211,9 @@ Shader "SpraySoldier/Mobile/StaticObj"
 					// combine lightmaps with realtime shadows
 					#ifdef SHADOWS_SCREEN
 						#if defined(UNITY_NO_RGBM)
-							c.rgb += o.Albedo * min(lm, atten*2);
+							//c.rgb += o.Albedo * min(lm, atten*2);
 						#else
-							c.rgb += o.Albedo * max(min(lm,(atten*2)*lmtex.rgb), lm*atten);
+							//c.rgb += o.Albedo * max(min(lm,(atten*2)*lmtex.rgb), lm*atten);
 						#endif
 					#else // SHADOWS_SCREEN
 						c.rgb += o.Albedo * lm;

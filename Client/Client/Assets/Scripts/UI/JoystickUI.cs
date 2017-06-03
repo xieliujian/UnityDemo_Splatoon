@@ -61,6 +61,7 @@ public class JoystickUI : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDr
             return;
 
         player.Anim.SetBool("Shoot", true);
+        player.CreatePaint();
     }
 
     void OnShootBtnUp(GameObject go)

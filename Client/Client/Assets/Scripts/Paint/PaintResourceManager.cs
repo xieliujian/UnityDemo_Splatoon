@@ -18,13 +18,15 @@ public class PaintResourceManager : MonoBehaviour
 
     private Dictionary<string, Cubemap> mCubeArray = new Dictionary<string, Cubemap>();
 
+    public List<StaticObj_Render> mRenderList = new List<StaticObj_Render>();
+
     public int mDecalWidth = 1024;
     public int mDecalHeight = 1024;
 
 	// Use this for initialization
 	void Start () 
     {
-        ManagerResolver.Register<ResourceManager>(this);
+        ManagerResolver.Register<PaintResourceManager>(this);
 
         ReadCsv();
 	}

@@ -2,8 +2,26 @@
 using System.Collections;
 using System.Collections.Generic;
 
+public class xEnumDefine//枚举定义类
+{
+    public enum TeamFlag
+    {
+        Invalid = -1,
+        Team_0 = 0,
+        Team_1 = 1,
+    }
+}
+
+public class CustomColorData_0
+{
+    public static Color Color_Team_0 = new Color(42 / 255.0f, 212 / 255.0f, 211 / 255.0f);
+    public static Color Color_Team_1 = new Color(233 / 255.0f, 106 / 255.0f, 173 / 255.0f);
+}
+
 public class CameraRender : MonoBehaviour
 {
+    public static CameraRender Instance;
+
     public class HitObj
     {
         public GameObject obj;
@@ -81,7 +99,9 @@ public class CameraRender : MonoBehaviour
 
         //mHostQuadMat = new Material(Shader.Find("Custom/DrawQuad"));
         //mGuestQuadMat = new Material(Shader.Find("Custom/DrawQuad"));
-	}
+
+        Instance = this;
+    }
 
     //public void SetColor(Color c )
     //{

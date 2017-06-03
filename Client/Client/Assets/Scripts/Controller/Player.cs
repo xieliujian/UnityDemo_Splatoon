@@ -10,6 +10,8 @@ public class Player : MonoBehaviour
     Camera mCamera;
     Transform mTemp;
 
+    public Transform mGunPos;
+
     public Animator Anim { get { return mAnimator; } }
 
     void Awake()
@@ -41,11 +43,14 @@ public class Player : MonoBehaviour
                     mat.shader = Shader.Find("SpraySoldier/Function/CompoundBlocked");
             }
 
-            Material mat1 = mWeaponMesh.material;
-            if (obj.tag == Tags.PlayerTag)
-                mat1.shader = Shader.Find("Unlit/Texture");
-            else
-                mat1.shader = Shader.Find("SpraySoldier/Function/CompoundBlocked");
+            if (mWeaponMesh != null)
+            {
+                Material mat1 = mWeaponMesh.material;
+                if (obj.tag == Tags.PlayerTag)
+                    mat1.shader = Shader.Find("Unlit/Texture");
+                else
+                    mat1.shader = Shader.Find("SpraySoldier/Function/CompoundBlocked");
+            }
         }
     }
 
@@ -106,6 +111,7 @@ public class Player : MonoBehaviour
         {
             mAnimator.SetBool("Shoot", true);
             GameLogic.Instance.UICtrl.JoystickUI.ShootBtn.Press();
+            CreatePaint();
         }
 
         if (Input.GetKeyUp(KeyCode.J))
@@ -121,6 +127,26 @@ public class Player : MonoBehaviour
                 escgo.SetActive(false);
             else
                 escgo.SetActive(true);
+        }
+    }
+
+    public void CreatePaint()
+    {
+        RaycastHit rayhit;
+        Ray ray = new Ray(mGunPos.position, -Vector3.up);
+        if (Physics.Raycast(ray, out rayhit, 10.0f))
+        {
+            CameraRender.HitObj obj = new CameraRender.HitObj();
+            obj.obj = rayhit.collider.gameObject;
+            obj.texcoord = rayhit.textureCoord2;
+            obj.coltype = (int)xEnumDefine.TeamFlag.Team_0;
+            obj.color = CustomColorData_0.Color_Team_1;
+            obj.decalname = "Gun_H100";
+            obj.decalwidth = 2.5f;
+            obj.decalheight = 2.5f;
+            obj.decalrot = 0.0f;
+
+            CameraRender.Instance.M_StaticObjArray.Add(obj);
         }
     }
 }

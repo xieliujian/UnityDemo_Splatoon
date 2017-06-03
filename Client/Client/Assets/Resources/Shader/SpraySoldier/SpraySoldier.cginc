@@ -135,7 +135,7 @@ inline UnityGI SS_UnityGlobalIllumination (UnityGIInput data, half occlusion, ha
 			o_gi.indirect.diffuse = DecodeDirectionalLightmap (bakedColor, bakedDirTex, normalWorld);
 
 			#ifdef SHADOWS_SCREEN
-				//o_gi.indirect.diffuse = MixLightmapWithRealtimeAttenuation (o_gi.indirect.diffuse, data.atten, bakedColorTex);
+				o_gi.indirect.diffuse = MixLightmapWithRealtimeAttenuation (o_gi.indirect.diffuse, data.atten, bakedColorTex);
 			#endif // SHADOWS_SCREEN
 
 		#elif DIRLIGHTMAP_SEPARATE
